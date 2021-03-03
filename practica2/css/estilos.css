@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #137218;
+    height: 90px;
+    width: 100%;
+}
+
+header h1{
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nav-top{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.nav-top ul{
+    display: flex;  
+    justify-content: right;
+}
